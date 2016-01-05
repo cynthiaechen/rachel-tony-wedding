@@ -1,0 +1,227 @@
+html, body {
+  width: 100%; height: 100%;
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; 
+  font-weight: 300;
+  color: #009195;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: #009195;
+}
+
+.container {
+  padding-bottom: 25px;
+}
+
+#nav-bar {
+  /*padding-top: 10px;*/
+  /*padding-bottom: 10px;*/
+  background-color: #FFF;
+/*  border-bottom: 1px #000 solid;*/
+  font-family: 'Raleway';
+  font-size: 22px;
+}
+
+.navbar-nav li + li{
+  padding-top: 25px;
+}
+
+.home-logo {
+  width: 50px;
+  height: 50px;
+}
+
+
+#home {
+  margin-top: -30px;
+  background:     
+  -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
+  background:     
+  -o-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
+  background:     
+  linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
+  background: url('../photos/rtcover.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+}
+
+#home h1 {
+  margin: 0;
+  padding-top: 220px;
+  padding-bottom: 0px;
+  font: 400 130px 'Cookie', Helvetica, sans-serif;
+  color: #FFF;
+  text-shadow: 0 1px 0 black;
+  margin: 0 auto;
+}
+
+.tony {
+  padding-left: 250px;
+}
+
+#home h2 {
+  margin: 0;
+  padding-top: 45px;
+  font-size: 40px;
+  font-family: 'Raleway';
+  color: #FFF;
+  text-shadow: 0 1px 0 black;
+  text-align: center;
+}
+
+h2 {
+  font-size: 60px;
+  font-family: 'Cookie';
+  color: #4d0044;
+  padding-bottom: 0;
+  margin: 0;
+  padding-top: 20px;
+}
+
+#about {
+  padding-top: 10px;
+}
+
+.cursive {
+  font-size: 40px;
+  font-family: 'Cookie';
+  color: #4d0044;
+  padding-bottom: 10px;
+  margin: 0;
+  line-height: 1.1;
+}
+
+.highlight {
+  font-size: 35px;
+  font-family: 'Raleway';
+  color: #009195;
+  padding-top: 10px;
+
+}
+
+.text {
+  font-size: 16px;
+  padding-bottom: 10px;
+  color: #39234f;
+  text-align: justify;
+}
+
+.map {
+  padding-bottom: 20px;
+}
+
+.bridal-party {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.person {
+  margin-top: 20px;
+}
+
+.left-offset {
+  margin-left: 50px;
+}
+
+.name {
+  font-size: 25px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.logo {
+  width: 350px;
+  height: 100px;
+  margin-top: 50px;
+}
+
+.hotel {
+  padding-bottom: 30px;
+}
+
+.photo-reel {
+  padding-bottom: 30px;
+}
+
+.footer {
+  margin-top: 70px;
+  margin-bottom: 10px;
+}
+
+.carousel {
+  background-color: #FFFFFF;
+  /*height: 100%;*/
+  margin: 0 auto;
+}
+
+/*.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right, 
+.carousel-control .icon-prev,
+.carousel-control .icon-next {
+    color: #4d0044;
+    font-size: 50px;
+    opacity: 1;
+}
+
+.carousel-control.left {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+  background-image:      -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0)));
+  background-image:         linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.carousel-control.right {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+  background-image:      -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0)));
+  background-image:         linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+}*/
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 65%;
+  height: auto;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-color: #FFFFFF;
+  border-width: 10px;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, .41);
+}
+
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
